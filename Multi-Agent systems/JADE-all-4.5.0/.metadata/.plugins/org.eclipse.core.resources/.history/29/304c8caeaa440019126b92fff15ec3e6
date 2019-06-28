@@ -1,0 +1,29 @@
+package agents;
+
+import jade.core.AID;
+import jade.core.behaviours.Behaviour;
+import jade.lang.acl.ACLMessage;
+import jade.lang.acl.MessageTemplate;
+
+public class QueryBehaviour extends Behaviour {
+
+	public static final int QUERY = 106;
+	
+	@Override
+	public void action() {
+		
+		ACLMessage query = new ACLMessage(QUERY);
+		query.addReceiver(new AID("storage",false));  //get storage Agent
+		query.setContent("Query_capacity"); // get query content 
+		myAgent.send(query);
+		System.out.println("A query is being sent");
+		
+	}
+	
+	@Override
+	public boolean done() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

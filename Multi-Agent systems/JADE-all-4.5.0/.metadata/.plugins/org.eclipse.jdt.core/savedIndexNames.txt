@@ -1,0 +1,8 @@
+INDEX VERSION 1.127+/Users/chalvidalm/Documents/3A OMA/A.I./Multi-Agent systems/JADE-all-4.5.0/.metadata/.plugins/org.eclipse.jdt.core
+2925578477.index
+339263145.index
+399185209.index
+2802837162.index
+648241971.index
+1009958677.index
+3025959702.index
